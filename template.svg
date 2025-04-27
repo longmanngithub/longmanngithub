@@ -230,7 +230,7 @@
   <!-- Hi, I'm Jason -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
     <rect width="433" height="42" rx="18" />
-    <text x="15" y="27">Hey there, thanks for stalking my GitHub page 👋</text>
+    <text x="15" y="27">Hey there, thanks for stalking my GitHub page 👋🏻</text>
   </g>
 
   <!-- typing 2 -->
