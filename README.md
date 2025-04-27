@@ -1,5 +1,3 @@
-## Hey there, Thank You for Stalking My GitHub Page 👋
-
 [![](https://raw.githubusercontent.com/longmanngithub/longmanngithub/refs/heads/main/chat.svg)](https://x.com/zzuowodemao)
 
 <!--
