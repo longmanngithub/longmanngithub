@@ -1,4 +1,5 @@
-const WEATHER_API_KEY = process.env.WEATHER_API_KEY
+import 'dotenv/config'
+const WEATHER_API_KEY = process.env.WEATHER_API_KEY;
 
 import fs from 'fs'
 import got from 'got'
@@ -61,7 +62,7 @@ const psTime = formatDistance(new Date(2020, 12, 14), today, {
 
 // Today's weather
 const locationKey = '49785'
-let url = `currentconditions/v1/${locationKey}?apikey=${WEATHER_API_KEY}`
+let url = `forecasts/v1/daily/1day/${locationKey}?apikey=${WEATHER_API_KEY}`
 
 got(url, { prefixUrl: WEATHER_DOMAIN })
   .then((response) => {

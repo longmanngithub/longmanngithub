@@ -53,7 +53,7 @@
       animation: wait 9.2s, msg-4 0.2s 9.2s;
     }
 
-    .typing-5 {
+        .typing-5 {
       opacity: 0;
       animation: wait 10s, fade-in-out 1.5s 10s;
     }
@@ -277,10 +277,10 @@
   <g transform="translate(10, 96)" class="msg-3">
     <rect width="459" height="66" rx="18" class="bubble" />
     <text x="15" y="27">I live in Phnom Penh, Cambodia where it’s supposed</text>
-    <text x="15" y="50">to be 75° F (24° C) and <tspan class="emoji">⛈</tspan> today.</text>
+    <text x="15" y="50">to be 95° F (35° C) and <tspan class="emoji">🌥</tspan> today.</text>
   </g>
 
-  <!-- typing 5 -->
+  <!-- typing 4 -->
   <g transform="translate(10, 168)" class="typing-4">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
@@ -306,7 +306,7 @@
     </text>
   </g>
 
-  <!-- typing 6 -->
+  <!-- typing 5 -->
   <g transform="translate(10, 240)" class="typing-5">
     <rect x="8.27246" width="69.7276" height="42" rx="20.9774" class="bubble" />
     <circle cx="13.591" cy="33.091" r="7.68185" class="bubble" />
@@ -325,7 +325,7 @@
 
   <!-- Have a great... -->
   <g transform="translate(10, 240)" class="msg-5">
-    <rect width="245" height="42" rx="18" class="bubble" />
-    <text x="15" y="27">Have a great Saturday! <tspan class="emoji">✌🏻</tspan></text>  
+    <rect width="230" height="42" rx="18" class="bubble" />
+    <text x="15" y="27">Have a great Sunday! <tspan class="emoji">✌🏻</tspan></text>  
   </g>
 </svg>
