@@ -1,4 +1,4 @@
-[![](https://raw.githubusercontent.com/longmanngithub/longmanngithub/refs/heads/main/chat.svg)](https://x.com/zzuowodemao)
+[![](https://raw.githubusercontent.com/longmanngithub/longmanngithub/refs/heads/main/chat.svg)]()
 
 <!--
 **longmanngithub/longmanngithub** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
