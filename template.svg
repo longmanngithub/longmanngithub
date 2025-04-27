@@ -230,7 +230,7 @@
   <!-- Hi, I'm Jason -->
   <g transform="translate(10, 0)" class="msg-1 bubble">
     <rect width="433" height="42" rx="18" />
-    <text x="15" y="27">Hey there, thanks for stalking my GitHub page 👋🏻</text>
+    <text x="15" y="27">Hey there, thanks for stalking my GitHub page 👋</text>
   </g>
 
   <!-- typing 2 -->
@@ -326,6 +326,6 @@
   <!-- Have a great... -->
   <g transform="translate(10, 240)" class="msg-5">
     <rect width="{dayBubbleWidth}" height="42" rx="18" class="bubble" />
-    <text x="15" y="27">Have a great {todayDay}! <tspan class="emoji">✌🏻</tspan></text>  
+    <text x="15" y="27">Have a great {todayDay}! <tspan class="emoji">✌️</tspan></text>  
   </g>
 </svg>
