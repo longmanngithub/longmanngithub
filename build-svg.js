@@ -5,6 +5,7 @@ import fs from 'fs'
 import got from 'got'
 import Qty from 'js-quantities/esm'
 import { formatDistance } from 'date-fns'
+import { DateTime } from 'luxon'
 
 let WEATHER_DOMAIN = 'http://dataservice.accuweather.com'
 
@@ -50,13 +51,11 @@ const dayBubbleWidths = {
   Sunday: 230,
 }
 
-// Time working at PlanetScale
-const today = new Date()
-const todayDay = new Intl.DateTimeFormat('en-US', { weekday: 'long' }).format(
-  today
-)
+// Time working at Luxon
+const today = DateTime.now().setZone('Asia/Bangkok')
+const todayDay = today.toFormat('cccc')
 
-const psTime = formatDistance(new Date(2020, 12, 14), today, {
+const luxonTime = formatDistance(new Date(2020, 12, 14), today.toJSDate(), {
   addSuffix: false,
 })
 
@@ -80,7 +79,7 @@ got(url, { prefixUrl: WEATHER_DOMAIN })
       data = data.replace('{degF}', degF)
       data = data.replace('{degC}', degC)
       data = data.replace('{weatherEmoji}', emojis[icon])
-      data = data.replace('{psTime}', psTime)
+      data = data.replace('{luxonTime}', luxonTime)
       data = data.replace('{todayDay}', todayDay)
       data = data.replace('{dayBubbleWidth}', dayBubbleWidths[todayDay])
 
