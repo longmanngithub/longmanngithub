@@ -65,7 +65,7 @@ const luxonTime = formatDistance(new Date(2020, 12, 14), today.toJSDate(), {
 })
 
 // --- Fetch and Process Data ---
-got(url, { prefixUrl: WEATHER_DOMAIN })
+got(WEATHER_API_URL)
   .then((response) => {
     let json = JSON.parse(response.body)
 
