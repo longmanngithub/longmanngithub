@@ -67,7 +67,8 @@ const luxonTime = formatDistance(new Date(2020, 12, 14), today.toJSDate(), {
 // --- Fetch and Process Data ---
 got(WEATHER_API_URL)
   .then((response) => {
-    let json = JSON.parse(response.body)
+    const json = JSON.parse(response.body)
+    const dailyData = json.daily
 
     const degF = Math.round(dailyData.temperature_2m_max[0])
     const degC = Math.round(Qty(`${degF} tempF`).to('tempC').scalar)
