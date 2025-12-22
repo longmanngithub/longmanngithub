@@ -10,7 +10,7 @@
   "dependencies": {
     "date-fns": "^4.1.0",
     "dotenv": "^17.2.2",
-    "got": "^14.4.9",
+    "got": "^14.6.3",
     "js-quantities": "^1.8.0",
     "luxon": "^3.7.2"
   }
