@@ -53,7 +53,7 @@
       animation: wait 9.2s, msg-4 0.2s 9.2s;
     }
 
-        .typing-5 {
+    .typing-5 {
       opacity: 0;
       animation: wait 10s, fade-in-out 1.5s 10s;
     }
