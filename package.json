@@ -4,13 +4,18 @@
   "version": "0.0.0",
   "devDependencies": {
     "eslint": "^9.39.2",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint": "^9.39.1",
     "eslint-config-prettier": "^10.1.5",
-    "prettier": "3.6.2"
+    "prettier": "3.8.1"
   },
   "dependencies": {
     "date-fns": "^4.1.0",
+    "dotenv": "^17.2.3",
+    "got": "^14.4.9",
     "dotenv": "^17.2.2",
-    "got": "^14.6.3",
+    "got": "^14.6.6",
     "js-quantities": "^1.8.0",
     "luxon": "^3.7.2"
   }
