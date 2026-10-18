@@ -11,7 +11,7 @@
     "prettier": "3.8.2"
   },
   "dependencies": {
-    "date-fns": "^4.1.0",
+    "date-fns": "^4.4.0",
     "dotenv": "^17.2.3",
     "got": "^14.4.9",
     "dotenv": "^17.4.2",
